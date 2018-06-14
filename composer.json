@@ -1,0 +1,25 @@
+{
+    "name": "mediaspip/emballe_medias",
+    "description": "Emballer ses documents proprement",
+    "type": "spip-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Bruno Bergot",
+            "email": "bruno@eliaz.fr"
+        },
+        {
+            "name": "kent1",
+            "email": "kent1@arscenic.info",
+            "homepage": "http://www.kent1.info"
+        }
+    ],
+    "require": {
+        "spipremix/saisies": "^2.25",
+        "spip/medias": "2.11.*",
+        "diogene/diogene": "^1.9",
+        "mediaspip/swfupload": "^1.1",
+        "mediaspip/jquery_file_upload": "^5.16",
+        "spipremix/notifications": "^3.6"
+    }
+}
