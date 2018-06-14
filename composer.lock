@@ -1,0 +1,296 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6bb16bc692d0a6aaba93a4edb5683e4d",
+    "packages": [
+        {
+            "name": "diogene/diogene",
+            "version": "1.9.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/diogene.git",
+                "reference": "95a388ff76c4b501d8fbb241fa32df2eb4ac504b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/diogene/zipball/95a388ff76c4b501d8fbb241fa32df2eb4ac504b",
+                "reference": "95a388ff76c4b501d8fbb241fa32df2eb4ac504b",
+                "shasum": ""
+            },
+            "require": {
+                "spip/images": ">=1.2",
+                "spip/mediabox": ">=1.0",
+                "spip/organiseur": ">=1.0",
+                "spipremix/saisies": "^2.25"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Bergot",
+                    "email": "bruno@eliaz.fr"
+                },
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "Création de templates de formulaires pour les objets",
+            "homepage": "https://www.mediaspip.net/spip.php?article50",
+            "time": "2018-06-11T20:14:08+00:00"
+        },
+        {
+            "name": "mediaspip/jquery_file_upload",
+            "version": "5.16.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/jquery_file_upload.git",
+                "reference": "eb1bc98f8648131cf3dfa5589c09afa272bd8aa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/jquery_file_upload/zipball/eb1bc98f8648131cf3dfa5589c09afa272bd8aa1",
+                "reference": "eb1bc98f8648131cf3dfa5589c09afa272bd8aa1",
+                "shasum": ""
+            },
+            "require": {
+                "spip/jquery_ui": "^1.8"
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "jQuery File Upload for SPIP",
+            "time": "2018-06-11T20:55:05+00:00"
+        },
+        {
+            "name": "mediaspip/swfupload",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/swfupload.git",
+                "reference": "fe0cf5f1e87af00381e7f320404fb98552dcb6e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/swfupload/zipball/fe0cf5f1e87af00381e7f320404fb98552dcb6e9",
+                "reference": "fe0cf5f1e87af00381e7f320404fb98552dcb6e9",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kent1",
+                    "email": "kent1@arscenic.info",
+                    "homepage": "http://www.kent1.info"
+                }
+            ],
+            "description": "swfupload for SPIP",
+            "time": "2018-06-11T21:58:26+00:00"
+        },
+        {
+            "name": "spip/images",
+            "version": "2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/images.git",
+                "reference": "41074b1be994acab6eac066dea1adbfefeaa8890"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/images/spip-images-2.0.3-b3580c.zip",
+                "reference": "41074b1be994acab6eac066dea1adbfefeaa8890",
+                "shasum": "31d590bbe3fe0d0590f131849a4746632590a607"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Filtres de transformation d'image et de couleurs",
+            "time": "2018-06-08T06:18:26+00:00"
+        },
+        {
+            "name": "spip/jquery_ui",
+            "version": "1.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/jquery_ui.git",
+                "reference": "7594b0aacde50a96d4e8c63aeae125d4aed70adf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/jquery_ui/spip-jquery_ui-1.12.1-579a07.zip",
+                "reference": "7594b0aacde50a96d4e8c63aeae125d4aed70adf",
+                "shasum": "40a396745882bfc82bcde832d3e26b11e74fe065"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Animations, effets et widgets jQuery",
+            "time": "2018-06-07T06:18:40+00:00"
+        },
+        {
+            "name": "spip/mediabox",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/mediabox.git",
+                "reference": "1c47a0158b9009f42af4f0af1f816470095839f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/mediabox/spip-mediabox-1.1.4-9101bc.zip",
+                "reference": "1c47a0158b9009f42af4f0af1f816470095839f6",
+                "shasum": "abc05a2f91330af408835dc151adb47c96168182"
+            },
+            "type": "spip-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Boîte multimédia",
+            "time": "2018-06-11T06:05:12+00:00"
+        },
+        {
+            "name": "spip/medias",
+            "version": "2.11.44",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/medias.git",
+                "reference": "cfece3ffae0949bf007df82e0ae0fbe04e19caa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/medias/spip-medias-2.11.44-b6b6ff.zip",
+                "reference": "cfece3ffae0949bf007df82e0ae0fbe04e19caa0",
+                "shasum": "44975f88478b05ff39d8bd5f0c19fbb6bdd34e97"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Gestion des medias dans SPIP",
+            "time": "2018-06-07T06:02:07+00:00"
+        },
+        {
+            "name": "spip/organiseur",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://git-spip.lerebooteux.fr/spip/organiseur.git",
+                "reference": "61758f522043aba687b4861da7fe188c308b9de4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer-spip.lerebooteux.fr/files/spip/organiseur/spip-organiseur-1.2.3-cc69b1.zip",
+                "reference": "61758f522043aba687b4861da7fe188c308b9de4",
+                "shasum": "ba64795204b7880587a2a71ba6c18e371453de47"
+            },
+            "type": "spip-plugin",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Collectif SPIP",
+                    "email": "spip-dev@rezo.net"
+                }
+            ],
+            "description": "Outils de travail éditorial en groupe",
+            "time": "2018-06-08T06:03:12+00:00"
+        },
+        {
+            "name": "spipremix/saisies",
+            "version": "2.25.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spipremix/saisies.git",
+                "reference": "c0c83f33bbc5dc5dfe1e8d4112cd9768f3ea31e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spipremix/saisies/zipball/c0c83f33bbc5dc5dfe1e8d4112cd9768f3ea31e7",
+                "reference": "c0c83f33bbc5dc5dfe1e8d4112cd9768f3ea31e7",
+                "shasum": ""
+            },
+            "type": "spip-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Matthieu Marcillaud",
+                    "email": "marcimat@rezo.net"
+                },
+                {
+                    "name": "RastaPopoulos",
+                    "email": "rastapopoulos@spip.org"
+                },
+                {
+                    "name": "Joseph Larmarange",
+                    "email": "joseph@larmarange.net"
+                }
+            ],
+            "description": "Générer et manipuler plus facilement les champs des formulaires",
+            "homepage": "https://contrib.spip.net/Saisies",
+            "time": "2018-06-10T12:44:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
